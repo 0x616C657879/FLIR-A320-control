@@ -22,7 +22,7 @@ Ce projet est un **fork** du dépôt original de [Jonathan D. Müller](https://z
 Installez les dépendances nécessaires via pip :
 
 ```bash
-pip3 install PyQt5
+pip3 install -r requirements.txt
 ```
 Conversion du fichier Qt Designer .ui en .py
 
