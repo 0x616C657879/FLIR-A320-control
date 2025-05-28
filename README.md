@@ -29,6 +29,16 @@ Installez les dépendances nécessaires via pip :
 ```bash
 pip3 install -r requirements.txt
 ```
+Pour lancer le programe :
+```bash
+#créé un environnement virutel (ici appelé .venv)
+python3 -m venv .venv
+. .venv/bin/activate
+
+#executer le code
+python3 main.py
+```
+
 Conversion du fichier Qt Designer .ui en .py
 
 Si vous modifiez l’interface graphique, convertissez le fichier .ui comme suit :
