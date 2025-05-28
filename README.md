@@ -1,34 +1,43 @@
 [![DOI](https://zenodo.org/badge/102614780.svg)](https://zenodo.org/badge/latestdoi/102614780)
 
-# FLIR-A320-control: Control FLIR A320 infrared camera
-This program is based on Python 3 on Windows and can be used to control a [FLIR A320 infrared camera](http://flir.com/uploadedFiles/Security/Products/A-Series/a3xxPT-Series-Users-Manual.pdf) through telnet. It shouldn't be difficult to port to other systems. The main functions include some settings and a logging functionality that takes a picture at regular intervals.
+# FLIR-A320-control: Contrôle et traitement de données RAW de caméra FLIR A320
 
-## Requirements: Install modules
+Ce projet est un **fork** du dépôt original de [Jonathan D. Müller](https://zenodo.org/record/4088156), initialement conçu pour contrôler une caméra infrarouge FLIR A320 via Telnet.  
+**Fork réalisé et adapté par : Alexy Pefaure**  
+**Objectif du fork :** ajouter des fonctionnalités de **traitement de données RAW** capturées par la caméra, pour permettre des analyses plus avancées des images infrarouges.
 
-In the command window, enter:
+---
 
-    pip3 install PyQt5
+## Fonctionnalités principales
 
-## To convert .ui (Qt Designer file) to .py
+- Contrôle de la caméra FLIR A320 via Telnet.
+- Réglage des paramètres de la caméra.
+- Capture d'images à intervalles réguliers.
+- **(Ajouté)** Extraction et traitement des données RAW issues de la caméra.
 
-In the command window, enter:
+---
 
-    pyuic5 -o Interface.py Interface.ui
+## Prérequis
 
-## How to Cite
+Installez les dépendances nécessaires via pip :
 
-Jonathan D. Muller. (2020, October 14). FLIR-A320-control: Control FLIR A320 infrared camera. doi: 10.5281/zenodo.4088156 (URL: https://zenodo.org/record/4088156), Python script
+```bash
+pip3 install PyQt5
+```
+Conversion du fichier Qt Designer .ui en .py
 
-[![DOI](https://zenodo.org/badge/102614780.svg)](https://zenodo.org/badge/latestdoi/102614780)
+Si vous modifiez l’interface graphique, convertissez le fichier .ui comme suit :
+```bash
+pyuic5 -o Interface.py Interface.ui
+```
+Comment citer ce travail
 
-## License
+Jonathan D. Muller. (2020, October 14). FLIR-A320-control: Control FLIR A320 infrared camera. doi: 10.5281/zenodo.4088156 (URL: https://zenodo.org/record/4088156)
+Fork adapté par Alexy Pefaure pour l'analyse des données RAW infrarouges.
+Licence
+Logiciel
 
-### Software
+Ce logiciel est distribué sous licence GPL version 3.
+Logos et icônes
 
-This software is distributed under the GPL version 3.
-
-### Logos and icons
-
-All logos and icons are trademark of [FLIR](https://www.flir.com/).
-
-
+Tous les logos et icônes sont la propriété de FLIR.
