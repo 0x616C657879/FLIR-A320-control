@@ -18,6 +18,11 @@ Ce projet est un **fork** du dépôt original de [Jonathan D. Müller](https://z
 ---
 
 ## Prérequis
+Installez les dépendances nécessaires via apt :
+
+```bash
+apt install exiftool
+```
 
 Installez les dépendances nécessaires via pip :
 
