@@ -22,9 +22,10 @@ Installez les dépendances nécessaires via apt :
 
 ```bash
 apt install exiftool
+apt install ffmpeg
 ```
 
-Installez les dépendances nécessaires via pip :
+Installez les dépendances nécessaires via pip (le faire dans l'environnement virtuel) :
 
 ```bash
 pip3 install -r requirements.txt
