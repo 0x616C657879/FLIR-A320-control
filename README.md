@@ -7,6 +7,8 @@ Ce projet est un **fork** du dépôt original de [Jonathan D. Müller](https://z
 **Objectif du fork :** ajouter des fonctionnalités de **traitement de données RAW** capturées par la caméra, pour permettre des analyses plus avancées des images infrarouges.
 
 ---
+![Capture d’écran du 2025-06-02 14-43-50](https://github.com/user-attachments/assets/c55fcf4c-de49-429a-a3a9-85ef12bd347f)
+
 
 ## Fonctionnalités principales
 
